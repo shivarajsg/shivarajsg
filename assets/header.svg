@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="100%" height="200" fill="none">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="840" height="200" rx="14" fill="url(#bg-grad)"/>
+  <rect width="840" height="200" rx="14" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="13.5" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Top Accent Beam -->
+  <rect x="24" y="0" width="220" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+
+  <!-- Status Indicator -->
+  <g transform="translate(32, 34)">
+    <circle cx="5" cy="5" r="4" fill="#10b981"/>
+    <circle cx="5" cy="5" r="7" fill="#10b981" fill-opacity="0.25"/>
+    <text x="18" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#10b981" letter-spacing="1.2">SYSTEM ARCHITECT // AGENTIC AI</text>
+  </g>
+
+  <!-- Name -->
+  <text x="32" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+    Shivaraj Garasangi
+  </text>
+
+  <!-- Headline -->
+  <text x="32" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="url(#cyan-glow)">
+    Applied AI &amp; Agentic Systems Engineer
+  </text>
+
+  <!-- Subtitle -->
+  <text x="32" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+    Engineering verifiable AI systems • Multi-agent LangGraph loops • GraphRAG &amp; citation integrity • Deterministic CDS
+  </text>
+
+  <!-- Badges / Pillars -->
+  <g transform="translate(32, 160)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="138" height="22" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
+    <text x="69" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#e2e8f0">LangGraph Agents</text>
+
+    <!-- Pill 2 -->
+    <rect x="146" y="0" width="154" height="22" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
+    <text x="223" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#e2e8f0">GraphRAG &amp; Provenance</text>
+
+    <!-- Pill 3 -->
+    <rect x="308" y="0" width="168" height="22" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
+    <text x="392" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#e2e8f0">Deterministic CDS Logic</text>
+
+    <!-- Pill 4 -->
+    <rect x="484" y="0" width="164" height="22" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
+    <text x="566" y="15" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#e2e8f0">LLM Reliability &amp; Eval</text>
+  </g>
+
+  <!-- Minimal Decorative Code Element on Right -->
+  <g transform="translate(710, 36)" opacity="0.35">
+    <rect x="0" y="0" width="96" height="128" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <circle cx="14" cy="14" r="3" fill="#ef4444"/>
+    <circle cx="24" cy="14" r="3" fill="#f59e0b"/>
+    <circle cx="34" cy="14" r="3" fill="#10b981"/>
+    <line x1="12" y1="32" x2="65" y2="32" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="46" x2="80" y2="46" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="60" x2="72" y2="60" stroke="#818cf8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="20" y1="74" x2="60" y2="74" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="88" x2="55" y2="88" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="102" x2="75" y2="102" stroke="#64748b" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
