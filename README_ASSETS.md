@@ -1,31 +1,32 @@
 # Profile README maintenance
 
-This repository is the public GitHub profile repository for [@shivarajsg](https://github.com/shivarajsg).
+This is the public profile repository for [@shivarajsg](https://github.com/shivarajsg).
 
-## Files
+## Active visuals
 
-- <code>README.md</code> — the profile page. It uses a self-hosted animated SVG headline, skill icons, GitHub Stats Extended cards, and generated contribution-snake SVGs. The old header banner is no longer displayed.
-- <code>assets/header.svg</code> — retained legacy artwork; it is not referenced by the current README.
-- <code>.github/workflows/generate-snake.yml</code> — generates light and dark contribution-snake SVGs and publishes them to the <code>output</code> branch.
+- `README.md` — profile introduction, six concise project cards, an architecture flowchart, dashboard, toolkit, and contribution animation.
+- `assets/tech-sphere.svg` — self-hosted, animated rotating technology sphere adapted from the CC0 [Tech Sphere template](https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/03-3d-immersive/tech-sphere).
+- `assets/github-dashboard.svg` — animated repository dashboard generated from GitHub's public repository metadata.
+- `scripts/update_profile_dashboard.py` — obtains public repository data from the GitHub REST API and generates the dashboard.
+- `.github/workflows/update-profile-dashboard.yml` — refreshes the dashboard daily, on manual dispatch, and when its generator/workflow changes.
+- `.github/workflows/generate-snake.yml` — generates the light and dark contribution-snake SVGs and publishes them to the `output` branch.
 
-## Contribution animation
+## Dashboard metrics
 
-The workflow runs daily and can also be started manually from the repository's Actions tab. It publishes:
+The dashboard only uses public repository data. It shows the number of public repositories, the number whose GitHub primary-language field is Python, the number of curated featured systems, primary-language counts by repository, and aggregate public stars/forks.
 
-- <code>github-snake.svg</code>
-- <code>github-snake-dark.svg</code>
+Language bars represent **repository counts**, not lines of code or coding time. The featured-system count is a curated profile setting in the generator, not a GitHub activity metric.
 
-The README loads these files from the <code>output</code> branch using raw.githubusercontent.com.
+## Refresh and troubleshooting
 
-If the animation appears broken:
+1. Open the [profile dashboard workflow](https://github.com/shivarajsg/shivarajsg/actions/workflows/update-profile-dashboard.yml).
+2. Choose **Run workflow** to refresh manually, or wait for its daily schedule.
+3. The workflow updates `assets/github-dashboard.svg` only when content changes.
+4. Open the latest workflow run if dashboard generation fails. The existing SVG is left intact when the script fails.
+5. The contribution snake is maintained separately in the [snake workflow](https://github.com/shivarajsg/shivarajsg/actions/workflows/generate-snake.yml).
 
-1. Open the [workflow runs](https://github.com/shivarajsg/shivarajsg/actions/workflows/generate-snake.yml).
-2. Inspect the latest run and fix any failed step.
-3. Confirm that both SVGs exist on the <code>output</code> branch.
-4. Open the profile in GitHub and allow cached images to refresh.
+The dashboard workflow needs repository Actions enabled and `contents: write` permission so it can commit the generated SVG. Its push trigger is limited to the script and workflow files to avoid a loop when the generated dashboard is committed.
 
-The workflow requires repository Actions to be enabled and a token with permission to write repository contents. Keep the workflow permissions minimal and review third-party action changes before updating the pinned commit SHAs.
+## Legacy artwork
 
-## External visuals
-
-The headline animation lives in [assets/neon-pulse-banner.svg](https://github.com/shivarajsg/shivarajsg/blob/main/assets/neon-pulse-banner.svg), so it does not depend on a separate typing service. The stats cards use [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the actively maintained successor to github-readme-stats. These are external services; if a hosted endpoint becomes unavailable or rate-limited, remove or replace the affected image rather than allowing the README to accumulate broken widgets.
+`assets/header.svg`, `assets/animated-headline.svg`, `assets/typewriter-intro.svg`, and `assets/neon-pulse-banner.svg` are retained legacy assets; the current README does not reference them.
