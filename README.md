@@ -6,11 +6,7 @@
 
 <p>Building AI systems that are evidence-grounded, testable, and useful beyond a demo.</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=850&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=880&amp;height=52&amp;lines=Applied+AI+Engineer%3BEvidence-grounded+AI+systems%3BAgentic+workflows+%26+LLM+reliability" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=850&amp;color=0369A1&amp;center=true&amp;vCenter=true&amp;width=880&amp;height=52&amp;lines=Applied+AI+Engineer%3BEvidence-grounded+AI+systems%3BAgentic+workflows+%26+LLM+reliability" />
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=850&amp;color=0369A1&amp;center=true&amp;vCenter=true&amp;width=880&amp;height=52&amp;lines=Applied+AI+Engineer%3BEvidence-grounded+AI+systems%3BAgentic+workflows+%26+LLM+reliability" alt="Animated headline: Applied AI Engineer, evidence-grounded AI systems, agentic workflows, and LLM reliability" />
-</picture>
+<img src="./assets/animated-headline.svg" alt="Animated headline cycling through applied AI, evidence-grounded systems, agentic workflows, and backend engineering" width="100%" />
 
 <p>
   <a href="https://www.linkedin.com/in/shivaraj-tech9353/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
