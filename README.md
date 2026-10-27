@@ -1,12 +1,9 @@
 <div align="center">
 
-# Shivaraj
-
 <p><strong>Applied AI Engineer · Agentic Systems · LLM Reliability</strong></p>
-
 <p>Building AI systems that are evidence-grounded, testable, and useful beyond a demo.</p>
 
-<img src="./assets/neon-pulse-banner.svg" alt="Shivaraj — animated neon banner for applied AI engineering, agentic systems, and LLM reliability" width="100%" />
+<img src="./assets/tech-sphere.svg" alt="Rotating technology sphere showcasing Shivaraj's AI engineering stack" width="100%" />
 
 <p>
   <a href="https://www.linkedin.com/in/shivaraj-tech9353/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
@@ -14,21 +11,19 @@
   <a href="https://github.com/shivarajsg"><img src="https://img.shields.io/badge/GitHub-Explore_projects-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub repositories" /></a>
 </p>
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,pytorch,postgres,mongodb,docker,git&amp;perline=9" alt="Python, FastAPI, React, TypeScript, PyTorch, PostgreSQL, MongoDB, Docker, and Git" />
-
 </div>
 
 ---
 
 ## About
 
-I’m a B.E. Information Science student at **Dayananda Sagar College of Engineering, Bengaluru** (Class of 2027), focused on **AI Engineering, Agentic Systems, and LLM Reliability**. I build applied AI applications across retrieval, agent workflows, evaluation, and backend engineering—with an emphasis on evidence-grounded outputs and reliable system behaviour.
+I’m a B.E. Information Science student at **Dayananda Sagar College of Engineering, Bengaluru** (Class of 2027), focused on **AI Engineering, Agentic Systems, and LLM Reliability**. I build applications across retrieval, agent workflows, evaluation, and backend engineering—with an emphasis on evidence-grounded outputs and dependable system behaviour.
 
-- **Building:** RAG and GraphRAG applications, agentic workflows, and APIs.
-- **Engineering for:** Evidence traceability, bounded execution, and measurable behaviour.
-- **Interested in:** AI engineering, LLM reliability, and production-minded software design.
+- **Building:** RAG / GraphRAG applications, agentic workflows, and reliable APIs.
+- **Engineering for:** Source traceability, bounded execution, measurable behaviour, and clear failure handling.
+- **Interested in:** Applied AI, LLM reliability, and production-minded systems design.
 
-## Featured work
+## Featured systems
 
 <table>
   <tr>
@@ -75,14 +70,39 @@ I’m a B.E. Information Science student at **Dayananda Sagar College of Enginee
   </tr>
 </table>
 
-<p align="center"><sub>Explore each repository for the implementation, setup instructions, and technical details.</sub></p>
+<p align="center"><sub>Each repository contains the implementation, setup instructions, and technical details.</sub></p>
+
+## How I structure AI systems
+
+```mermaid
+flowchart LR
+    A["Documents & Inputs"] --> B["Parse + Retrieve Evidence"]
+    B --> C["Agent / Rule Workflow"]
+    C --> D["Validate Claims & Constraints"]
+    D --> E["Traceable Output"]
+    D -. "uncertain / conflicting" .-> F["Human Review"]
+```
+
+I aim to keep probabilistic model outputs inside clear system boundaries: retrieval supplies evidence, workflows control execution, validators check important claims, and unresolved cases stay visible instead of being silently guessed.
+
+## Engineering dashboard
+
+<p align="center">
+  <img src="./assets/github-dashboard.svg" alt="Animated engineering dashboard with public repository count, Python-primary repositories, primary-language distribution, and engineering focus areas" width="100%" />
+</p>
+
+<p align="center"><sub>Generated from GitHub public-repository metadata and refreshed daily by GitHub Actions. Language bars count repositories by GitHub's primary-language field, not lines of code.</sub></p>
 
 ## Toolkit
 
-<details>
-  <summary><strong>Explore technologies by area</strong></summary>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,react,ts,nextjs,postgres,mongodb,docker,git,github,linux&amp;perline=6" alt="Python, FastAPI, PyTorch, React, TypeScript, Next.js, PostgreSQL, MongoDB, Docker, Git, GitHub, and Linux" />
+</p>
 
-  | Area | Tools and concepts |
+<details>
+  <summary><strong>Skills by area</strong></summary>
+
+  | Area | Technologies and concepts |
   |---|---|
   | **AI & orchestration** | LLM applications, RAG, GraphRAG, LangChain, LangGraph, Hugging Face, PyTorch |
   | **Retrieval & knowledge** | Knowledge graphs, embeddings, FAISS, ChromaDB, document parsing, citation validation |
@@ -91,33 +111,13 @@ I’m a B.E. Information Science student at **Dayananda Sagar College of Enginee
   | **Engineering** | Docker, Git, GitHub Actions, Linux, pytest, API testing |
 </details>
 
-## How I build
-
-- **Evidence before confidence:** connect important answers to sources and explicit checks.
-- **Boundaries before autonomy:** use clear tools, bounded retries, and isolated execution where appropriate.
-- **Measure the system, not just the model:** include tests, schemas, and failure analysis in the design.
-
-## GitHub snapshot
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=shivarajsg&amp;theme=dark_github&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github" />
-    <img height="165" src="https://github-stats-extended.vercel.app/api?username=shivarajsg&amp;theme=light_github&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github" alt="GitHub profile statistics" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=shivarajsg&amp;layout=compact&amp;langs_count=6&amp;theme=dark_github" />
-    <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=shivarajsg&amp;layout=compact&amp;langs_count=6&amp;theme=light_github" alt="Most used languages across public repositories" />
-  </picture>
-</p>
-
-## Contribution animation
+## Contribution activity
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivarajsg/shivarajsg/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shivarajsg/shivarajsg/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/shivarajsg/shivarajsg/output/github-snake.svg" alt="Animated snake moving through my GitHub contribution graph" width="100%" />
+    <img src="https://raw.githubusercontent.com/shivarajsg/shivarajsg/output/github-snake.svg" alt="Animated contribution snake traversing my GitHub contribution graph" width="100%" />
   </picture>
 </p>
 
@@ -129,6 +129,6 @@ I’m a B.E. Information Science student at **Dayananda Sagar College of Enginee
 <a href="mailto:kshivaraj784@gmail.com">Email</a> ·
 <a href="https://github.com/shivarajsg">GitHub</a>
 
-<sub>Designed for clarity · Built around evidence · Always learning</sub>
+<sub>Evidence-grounded AI · Thoughtful systems · Always learning</sub>
 
 </div>
