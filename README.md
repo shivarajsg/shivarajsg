@@ -6,7 +6,7 @@
 
 <p>Building AI systems that are evidence-grounded, testable, and useful beyond a demo.</p>
 
-<img src="./assets/typewriter-intro.svg" alt="Shivaraj AI engineering terminal: identity, current focus, and contact links with an animated terminal cursor" width="100%" />
+<img src="./assets/neon-pulse-banner.svg" alt="Shivaraj — animated neon banner for applied AI engineering, agentic systems, and LLM reliability" width="100%" />
 
 <p>
   <a href="https://www.linkedin.com/in/shivaraj-tech9353/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
