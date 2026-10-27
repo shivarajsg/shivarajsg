@@ -1,68 +1,31 @@
-# Profile Assets & Maintenance Guide
+# Profile README maintenance
 
-This document explains the assets and deployment steps for Shivaraj's GitHub profile README repository (`shivarajsg/shivarajsg`).
+This repository is the public GitHub profile repository for [@shivarajsg](https://github.com/shivarajsg).
 
----
+## Files
 
-## 📂 Repository Structure
+- <code>README.md</code> — the profile page. It uses a hosted typing SVG, skill icons, GitHub statistics cards, and generated contribution-snake SVGs. The old header banner is no longer displayed.
+- <code>assets/header.svg</code> — retained legacy artwork; it is not referenced by the current README.
+- <code>.github/workflows/generate-snake.yml</code> — generates light and dark contribution-snake SVGs and publishes them to the <code>output</code> branch.
 
-```
-shivarajsg/
-├── assets/
-│   └── header.svg            # Custom, lightweight vector hero banner (pure SVG, 0 dependencies)
-├── README.md                 # The main GitHub profile showcase
-└── README_ASSETS.md          # Asset documentation and deployment instructions
-```
+## Contribution animation
 
----
+The workflow runs daily and can also be started manually from the repository's Actions tab. It publishes:
 
-## 🎨 Asset Details: `assets/header.svg`
+- <code>github-snake.svg</code>
+- <code>github-snake-dark.svg</code>
 
-- **Format:** Pure SVG (`<svg viewBox="0 0 840 200">`)
-- **Dimensions:** 840px × 200px (responsive on all screen sizes, desktop & mobile)
-- **Design Aesthetic:** Deep slate/obsidian (`#0b0f19` to `#0f172a`) with subtle 24px grid overlay, rounded corners (`rx="14"`), and glowing electric cyan (`#38bdf8`) / indigo (`#818cf8`) accents.
-- **Typography:** Uses native system font stack (`-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif`), guaranteeing instant rendering with 0 external font latency or blocking.
-- **File size:** ~3.5 KB (extremely lightweight, loads instantly).
+The README loads these files from the <code>output</code> branch using raw.githubusercontent.com.
 
-### Modifying the Banner
-To edit the banner text, colors, or pills:
-1. Open `assets/header.svg` in any code editor.
-2. Edit the `<text>` elements (e.g. your name, title, or pill labels).
-3. The linear gradients `cyan-glow` and `bg-grad` in the `<defs>` section control the color scheme.
+If the animation appears broken:
 
----
+1. Open the [workflow runs](https://github.com/shivarajsg/shivarajsg/actions/workflows/generate-snake.yml).
+2. Inspect the latest run and fix any failed step.
+3. Confirm that both SVGs exist on the <code>output</code> branch.
+4. Open the profile in GitHub and allow cached images to refresh.
 
-## 🚀 Step-by-Step Deployment Guide
+The workflow requires repository Actions to be enabled and a token with permission to write repository contents. Keep the workflow permissions minimal and review third-party action changes before updating the pinned commit SHAs.
 
-Since the special profile repository `shivarajsg/shivarajsg` does not exist yet on GitHub, follow these 3 quick steps to activate your profile:
+## External visuals
 
-### Step 1: Create the Special Profile Repository on GitHub
-1. Go to **[https://github.com/new](https://github.com/new)**.
-2. In the **Repository name** field, type: `shivarajsg`
-   > *GitHub will display a green banner stating: "You found a secret! shivarajsg/shivarajsg is a special repository that you can use to add a README.md to your GitHub profile."*
-3. Make sure the repository visibility is set to **Public**.
-4. Check **Add a README file** (or leave it unchecked if you are pushing via Git).
-5. Click **Create repository**.
-
-### Step 2: Push or Upload Files
-From this local folder (`c:\Users\KumarShiva\Downloads\self_readme`):
-
-#### Option A: Using Git CLI
-```bash
-cd c:\Users\KumarShiva\Downloads\self_readme
-git init
-git checkout -b main
-git remote add origin https://github.com/shivarajsg/shivarajsg.git
-git add README.md assets/header.svg README_ASSETS.md
-git commit -m "docs: launch premium developer profile README and assets"
-git push -u origin main
-```
-
-#### Option B: GitHub Web UI
-1. Navigate to your new `shivarajsg/shivarajsg` repository on GitHub.
-2. Click **Add file** → **Upload files**.
-3. Drag and drop `README.md`, `README_ASSETS.md`, and the `assets/` folder (with `header.svg`).
-4. Commit changes directly to `main`.
-
-### Step 3: Verify Your Profile
-Visit **[https://github.com/shivarajsg](https://github.com/shivarajsg)**. Your new profile portfolio will immediately be live!
+The typing headline is provided by [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg). The stats cards use [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). These are external services; if a hosted endpoint becomes unavailable or rate-limited, remove or replace the affected image rather than allowing the README to accumulate broken widgets.
