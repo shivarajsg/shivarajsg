@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="66" viewBox="0 0 880 66" role="img" aria-labelledby="title desc">
+  <title id="title">Shivaraj's animated engineering focus</title>
+  <desc id="desc">A calm rotating headline showing applied AI, evidence-grounded systems, agentic workflows, and backend engineering.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .headline {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font-size: 24px;
+      font-weight: 600;
+      text-anchor: middle;
+      fill: #0369a1;
+      opacity: 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      .headline { fill: #38bdf8; }
+    }
+    .one { animation: one 16s ease-in-out infinite; }
+    .two { animation: two 16s ease-in-out infinite; }
+    .three { animation: three 16s ease-in-out infinite; }
+    .four { animation: four 16s ease-in-out infinite; }
+    .dot { fill: #38bdf8; transform-box: fill-box; transform-origin: center; animation: pulse 1.8s ease-in-out infinite; }
+    .track { fill: #94a3b8; opacity: .22; }
+    .sweep { fill: url(#accent); animation: sweep 3.8s ease-in-out infinite; }
+    @keyframes one {
+      0%, 3% { opacity: 0; } 6%, 21% { opacity: 1; } 24%, 100% { opacity: 0; }
+    }
+    @keyframes two {
+      0%, 26% { opacity: 0; } 29%, 46% { opacity: 1; } 49%, 100% { opacity: 0; }
+    }
+    @keyframes three {
+      0%, 51% { opacity: 0; } 54%, 71% { opacity: 1; } 74%, 100% { opacity: 0; }
+    }
+    @keyframes four {
+      0%, 76% { opacity: 0; } 79%, 96% { opacity: 1; } 100% { opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .45; transform: scale(.85); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(0); opacity: .55; }
+      50% { transform: translateX(290px); opacity: 1; }
+      100% { transform: translateX(0); opacity: .55; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .one { animation: none; opacity: 1; }
+      .two, .three, .four, .dot, .sweep { animation: none; opacity: 0; }
+    }
+  </style>
+  <circle class="dot" cx="206" cy="31" r="3.5"/>
+  <text class="headline one" x="440" y="38">Applied AI Engineer</text>
+  <text class="headline two" x="440" y="38">Evidence-grounded AI systems</text>
+  <text class="headline three" x="440" y="38">Agentic workflows &amp; LLM reliability</text>
+  <text class="headline four" x="440" y="38">Backend engineering for real-world AI</text>
+  <rect class="track" x="280" y="50" width="320" height="2.5" rx="1.25"/>
+  <rect class="sweep" x="280" y="50" width="70" height="2.5" rx="1.25"/>
+</svg>
