@@ -104,9 +104,15 @@ I’m a B.E. Information Science student specialising in **Data Science & Analyt
 ## GitHub snapshot
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shivarajsg&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0284c7&amp;text_color=64748b&amp;icon_color=8b5cf6&amp;rank_icon=github" alt="GitHub profile statistics" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=shivarajsg&amp;theme=dark_github&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github" />
+    <img height="165" src="https://github-stats-extended.vercel.app/api?username=shivarajsg&amp;theme=light_github&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github" alt="GitHub profile statistics" />
+  </picture>
   &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivarajsg&amp;layout=compact&amp;langs_count=6&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=0284c7&amp;text_color=64748b" alt="Most used languages across public repositories" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=shivarajsg&amp;layout=compact&amp;langs_count=6&amp;theme=dark_github" />
+    <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=shivarajsg&amp;layout=compact&amp;langs_count=6&amp;theme=light_github" alt="Most used languages across public repositories" />
+  </picture>
 </p>
 
 ## Contribution animation
