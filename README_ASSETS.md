@@ -28,4 +28,4 @@ The workflow requires repository Actions to be enabled and a token with permissi
 
 ## External visuals
 
-The typing headline is provided by [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg). The stats cards use [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). These are external services; if a hosted endpoint becomes unavailable or rate-limited, remove or replace the affected image rather than allowing the README to accumulate broken widgets.
+The typing headline is provided by [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg). The stats cards use [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended), the actively maintained successor to github-readme-stats. These are external services; if a hosted endpoint becomes unavailable or rate-limited, remove or replace the affected image rather than allowing the README to accumulate broken widgets.
