@@ -56,9 +56,9 @@
     <line x1="0" y1="220" x2="380" y2="220" stroke="#1a2238" stroke-width="0.6"/>
 
     <g transform="translate(0,250)" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a5b4cf" letter-spacing="2">
-      <text>CORE SYSTEMS</text>   <text x="96" fill="#5cffd9">python · fastapi · rag</text>
-      <text y="20">ORCHESTRATION</text>      <text x="96" y="20" fill="#5cffd9">langgraph · agents</text>
-      <text y="40">MODEL / EVAL</text>       <text x="96" y="40" fill="#a78bfa">pytorch · llm eval</text>
+      <text>CORE SYSTEMS</text>   <text x="150" fill="#5cffd9">python · fastapi · rag</text>
+      <text y="20">ORCHESTRATION</text>      <text x="150" y="20" fill="#5cffd9">langgraph · agents</text>
+      <text y="40">MODEL / EVAL</text>       <text x="150" y="40" fill="#a78bfa">pytorch · llm eval</text>
     </g>
   </g>
 
