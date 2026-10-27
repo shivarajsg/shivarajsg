@@ -22,7 +22,7 @@
 
 ## About
 
-I’m a B.E. Information Science student specialising in **Data Science & Analytics** at **Dayananda Sagar College of Engineering, Bengaluru** (Class of 2027). I build applied AI systems across retrieval, agent workflows, evaluation, and backend engineering—with a focus on making important outputs traceable and system behaviour testable.
+I’m a B.E. Information Science student at **Dayananda Sagar College of Engineering, Bengaluru** (Class of 2027), focused on **AI Engineering, Agentic Systems, and LLM Reliability**. I build applied AI applications across retrieval, agent workflows, evaluation, and backend engineering—with an emphasis on evidence-grounded outputs and reliable system behaviour.
 
 - **Building:** RAG and GraphRAG applications, agentic workflows, and APIs.
 - **Engineering for:** Evidence traceability, bounded execution, and measurable behaviour.
